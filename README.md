@@ -4,7 +4,7 @@ Prosta aplikacja typu CRUD do katalogowania książek z walidacją numerów ISBN
 Frontend został stworzony w React (Vite), a backend opiera się na JSON-Server.
 
 👉 Live preview:
-https://my-lib-git-main-pawel1022s-projects.vercel.app/
+[https://my-lib-git-main-pawel1022s-projects.vercel.app/](https://my-ef13cunlb-pawel1022s-projects.vercel.app)
 
 ✨ Funkcjonalności
 
