@@ -1,0 +1,157 @@
+{
+	"books": [
+		{
+			"id": "1",
+			"title": "W pustyni i w puszczy",
+			"author": "Henryk Sienkiewicz",
+			"isbn": "9788373271890",
+			"year": "1911",
+			"genre": "Przygodowa"
+		},
+		{
+			"id": "2",
+			"title": "Lalka",
+			"author": "Bolesław Prus",
+			"isbn": "9788381467647",
+			"year": "1890",
+			"genre": "Powieść"
+		},
+		{
+			"id": "3",
+			"title": "Pan Tadeusz",
+			"author": "Adam Mickiewicz",
+			"isbn": "9788306030934",
+			"year": "1834",
+			"genre": "Epopeja"
+		},
+		{
+			"id": "4",
+			"title": "Zbrodnia i kara",
+			"author": "Fiodor Dostojewski",
+			"isbn": "9780143058144",
+			"year": "1866",
+			"genre": "Powieść"
+		},
+		{
+			"id": "5",
+			"title": "Rok 1984",
+			"author": "George Orwell",
+			"isbn": "9780451524935",
+			"year": "1949",
+			"genre": "Dystopia"
+		},
+		{
+			"id": "6",
+			"title": "Folwark zwierzęcy",
+			"author": "George Orwell",
+			"isbn": "9780451526342",
+			"year": "1945",
+			"genre": "Satrya"
+		},
+		{
+			"id": "7",
+			"title": "Duma i uprzedzenie",
+			"author": "Jane Austen",
+			"isbn": "9781853260001",
+			"year": "1813",
+			"genre": "Romans"
+		},
+		{
+			"id": "8",
+			"title": "Hobbit",
+			"author": "J.R.R. Tolkien",
+			"isbn": "9780547928227",
+			"year": "1937",
+			"genre": "Fantasy"
+		},
+		{
+			"id": "9",
+			"title": "Władca Pierścieni: Drużyna Pierścienia",
+			"author": "J.R.R. Tolkien",
+			"isbn": "9780547928210",
+			"year": "1954",
+			"genre": "Fantasy"
+		},
+		{
+			"id": "10",
+			"title": "Harry Potter i Kamień Filozoficzny",
+			"author": "J.K. Rowling",
+			"isbn": "9780747532699",
+			"year": "1997",
+			"genre": "Fantasy"
+		},
+		{
+			"id": "11",
+			"title": "Wiedźmin: Ostatnie życzenie",
+			"author": "Andrzej Sapkowski",
+			"isbn": "9788375780635",
+			"year": "1993",
+			"genre": "Fantasy"
+		},
+		{
+			"id": "12",
+			"title": "Metro 2033",
+			"author": "Dmitry Glukhovsky",
+			"isbn": "9788392442541",
+			"year": "2005",
+			"genre": "Postapokaliptyczna"
+		},
+		{
+			"id": "13",
+			"title": "Kod Leonarda da Vinci",
+			"author": "Dan Brown",
+			"isbn": "9780307474278",
+			"year": "2003",
+			"genre": "Thriller"
+		},
+		{
+			"id": "14",
+			"title": "Diuna",
+			"author": "Frank Herbert",
+			"isbn": "9780441172719",
+			"year": "1965",
+			"genre": "Sci-Fi"
+		},
+		{
+			"id": "15",
+			"title": "Gra o tron",
+			"author": "George R.R. Martin",
+			"isbn": "9780553593716",
+			"year": "1996",
+			"genre": "Fantasy"
+		},
+		{
+			"id": "16",
+			"title": "Sherlock Holmes: Studium w szkarłacie",
+			"author": "Arthur Conan Doyle",
+			"isbn": "9780486475750",
+			"year": "1887",
+			"genre": "Kryminalna"
+		},
+		{
+			"id": "17",
+			"title": "Mały Książę",
+			"author": "Antoine de Saint-Exupéry",
+			"isbn": "9780156012195",
+			"year": "1943",
+			"genre": "Filozoficzna"
+		},
+		{
+			"id": "18",
+			"title": "Buszujący w zbożu",
+			"author": "J.D. Salinger",
+			"isbn": "9780316769488",
+			"year": "1951",
+			"genre": "Powieść"
+		},
+		{
+			"id": "19",
+			"title": "Zielona Mila",
+			"author": "Stephen King",
+			"isbn": "9780671041786",
+			"year": "1996",
+			"genre": "Dramat"
+		},
+		{ "id": "20", "title": "To", "author": "Stephen King", "isbn": "9781501142970", "year": "1986", "genre": "Horror" }
+	]
+}
