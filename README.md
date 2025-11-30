@@ -1,16 +1,78 @@
-# React + Vite
+📚 Katalog książek — React + JSON-Server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prosta aplikacja typu CRUD do katalogowania książek z walidacją numerów ISBN.
+Frontend został stworzony w React (Vite), a backend opiera się na JSON-Server.
 
-Currently, two official plugins are available:
+👉 Live preview:
+https://my-lib-git-main-pawel1022s-projects.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Funkcjonalności
 
-## React Compiler
+🔍 Wyszukiwanie książek po tytule i autorze
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+↕️ Sortowanie wyników
 
-## Expanding the ESLint configuration
+➕ Dodawanie nowych książek
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+❌ Usuwanie istniejących pozycji
+
+📝 Walidacja ISBN (zarówno ISBN-10, jak i ISBN-13)
+
+🗄 Pobieranie i zapisywanie danych przez JSON-Server
+
+📦 Lista startowych książek w bazie
+
+🛠 Technologie
+
+React + Vite
+
+Czysty CSS
+
+JSON-Server (backend)
+
+Fetch API
+
+Render – hosting backendu
+
+Vercel – hosting frontend
+
+🚀 Uruchamianie projektu lokalnie
+
+1. Pobierz repozytorium
+   git clone https://github.com/TWOJ_LOGIN/my-lib.git
+   cd my-lib
+
+2. Zainstaluj zależności
+   npm install
+
+3. Uruchom backend (JSON-Server)
+   npm run server
+
+Backend działa pod adresem:
+
+http://localhost:3001/books
+
+4. Uruchom frontend
+   npm run dev
+
+Frontend dostępny pod:
+
+http://localhost:5173
+
+📄 Opis działania
+
+Aplikacja umożliwia zarządzanie prostym katalogiem książek:
+
+Formularz dodawania książki pozwala uzupełnić tytuł, autora, ISBN, rok oraz gatunek.
+
+Przed zapisaniem danych numer ISBN jest sprawdzany pod kątem poprawności.
+
+Lista książek pobierana jest z backendu za pomocą REST API opartego o JSON-Server.
+
+Możliwe jest usuwanie książek z bazy.
+
+Wyszukiwarka oraz sortowanie działają w czasie rzeczywistym po stronie klienta.
+
+👨‍💻 Autor
+
+Projekt wykonany na potrzeby zajęć, z naciskiem na czysty kod oraz prostą i czytelną implementację CRUD.
